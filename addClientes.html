@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="index.html">Logo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -52,8 +52,8 @@
         </div>
     </nav>
     <!-- separador -->
-    <span class="d-block p-2 bg-dark text-white">
-        <h2>Por favor ingrese los datos del cliente</h2>
+    <span class="d-block p-2 bg-dark text-white text-center text-uppercase">
+        <h2>Datos del cliente</h2>
     </span>
     <!-- inicio del primer formulario -->
     <div class="container mb-3 mt-3">
@@ -63,21 +63,21 @@
                 <!-- primera columna del formulario -->
                 <div class="col">
                     <!-- <input type="text" class="form-control" placeholder="First name" aria-label="First name"> -->
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="name" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
 
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="exampleInputPassword1" class="form-label">Apellidos</label>
                         <input type="text" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="exampleInputEmail1" class="form-label">Direccion</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-2">
                         <label for="exampleInputEmail1" class="form-label">Telefono</label>
                         <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
@@ -86,8 +86,8 @@
                 </div>
                 <!-- Segunda columna del formulario -->
                 <div class="col-3">
-                    <span class="d-block p-2 bg-dark text-white">
-                        <h5>plan</h5>
+                    <span class="d-block p-2 bg-dark text-white rounded-3 mb-2 text-center text-uppercase">
+                        <h5>Titular</h5>
                     </span>
 
                     <div class="form-check">
@@ -156,98 +156,116 @@
                             Cobertura BIT
                         </label>
                     </div>
+                    <span class="d-block p-2 bg-dark text-white rounded-3 mb-2 text-center text-uppercase">
+                        <h5>Complementaria</h5>
+                    </span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="api">
+                        <label class="form-check-label" for="api">
+                            Cobertura API
+                        </label>
+                    </div>
                 </div>
                 <!-- Tercera columna del formulario -->
                 <div class="col">
                     <div class="row g-2 mb-1">
                         <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
+                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada BAS" aria-label="City" disabled>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
-                        </div>
-                    </div>
-                    <div class="row g-2 mb-1">
-                        <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
+                            <input id="bas_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual BAS" aria-label="State" disabled>
                         </div>
                     </div>
                     <div class="row g-2 mb-1">
                         <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
+                            <input id="tiba_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada TIBA" aria-label="City" disabled>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
-                        </div>
-                    </div>
-                    <div class="row g-2 mb-1">
-                        <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
+                            <input id="tiba_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual TIBA" aria-label="State" disabled>
                         </div>
                     </div>
                     <div class="row g-2 mb-1">
                         <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
+                            <input id="cii_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada CII" aria-label="City" disabled>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
-                        </div>
-                    </div>
-                    <div class="row g-2 mb-1">
-                        <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
+                            <input id="cii_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual CII" aria-label="State" disabled>
                         </div>
                     </div>
                     <div class="row g-2 mb-1">
                         <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
+                            <input id="bcat_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada BCAT" aria-label="City" disabled>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
-                        </div>
-                    </div>
-                    <div class="row g-2 mb-1">
-                        <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
+                            <input id="bcat_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual BCAT" aria-label="State" disabled>
                         </div>
                     </div>
                     <div class="row g-2 mb-1">
                         <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
+                            <input id="cfa_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada CFA" aria-label="City" disabled>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
-                        </div>
-                    </div>
-                    <div class="row g-2 mb-1">
-                        <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
+                            <input id="cfa_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual CFA" aria-label="State" disabled>
                         </div>
                     </div>
                     <div class="row g-2 mb-1">
                         <div class="col">
-                            <input id="bas_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada" aria-label="City" disabled>
+                            <input id="ge_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada GE" aria-label="City" disabled>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control form-control-sm" placeholder="Prima anual" aria-label="State" disabled>
+                            <input id="ge_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual GE" aria-label="State" disabled>
+                        </div>
+                    </div>
+                    <div class="row g-2 mb-1">
+                        <div class="col">
+                            <input id="apt_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada APT" aria-label="City" disabled>
+                        </div>
+                        <div class="col">
+                            <input id="apt_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual APT" aria-label="State" disabled>
+                        </div>
+                    </div>
+                    <div class="row g-2 mb-1">
+                        <div class="col">
+                            <input id="egt_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada EGT" aria-label="City" disabled>
+                        </div>
+                        <div class="col">
+                            <input id="egt_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual EGT" aria-label="State" disabled>
+                        </div>
+                    </div>
+                    <div class="row g-2 mb-1">
+                        <div class="col">
+                            <input id="crt_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada CRT" aria-label="City" disabled>
+                        </div>
+                        <div class="col">
+                            <input id="crt_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual CRT" aria-label="State" disabled>
+                        </div>
+                    </div>
+                    <div class="row g-2 mb-1">
+                        <div class="col">
+                            <input id="pht_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada PHT" aria-label="City" disabled>
+                        </div>
+                        <div class="col">
+                            <input id="pht_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual PHT" aria-label="State" disabled>
+                        </div>
+                    </div>
+                    <div class="row g-2 mb-1">
+                        <div class="col">
+                            <input id="bit_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada BIT" aria-label="City" disabled>
+                        </div>
+                        <div class="col">
+                            <input id="bit_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual BIT" aria-label="State" disabled>
+                        </div>
+                    </div>
+                    <div class="row g-2 mb-1">
+                        <div class="col">
+                            <input id="api_sa" type="text" class="form-control form-control-sm" placeholder="Suma asegurada API" aria-label="City" disabled>
+                        </div>
+                        <div class="col">
+                            <input id="api_pa" type="text" class="form-control form-control-sm" placeholder="Prima anual API" aria-label="State" disabled>
                         </div>
                     </div>
                 </div>
+
             </div>
             <button type="submit" class="btn btn-primary">Guardar</button>
         </form>
